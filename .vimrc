@@ -17,6 +17,7 @@ call neobundle#begin(expand('~/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'tpope/vim-endwise'
 call neobundle#end()
+NeoBundleCheck
 filetype plugin indent on
 syntax on
 
