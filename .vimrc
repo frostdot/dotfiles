@@ -16,7 +16,7 @@ endif
 call neobundle#begin(expand('~/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'tpope/vim-endwise'
-NeoBundle 'AndrewRadev/switch'
+NeoBundle 'AndrewRadev/switch.vim'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tomtom/tcomment_vim'
 call neobundle#end()
