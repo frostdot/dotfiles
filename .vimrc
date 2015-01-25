@@ -8,4 +8,14 @@ set termencoding=utf8
 set smartindent
 set number
 set background=dark
+set nocompatible
+filetype plugin indent off
+if has('vim_starting')
+	set runtimepath+=~/.vim/bundle/neobundle.vim
+endif
+call neobundle#begin(expand('~/.vim/bundle'))
+
+call neobundle#end()
+filetype plugin indent on
 syntax on
+
