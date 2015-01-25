@@ -1,0 +1,8 @@
+shell	/bin/tcsh
+startup_message off
+autodetach on
+hardstatus on
+vbell off
+altscreen on
+defscrollback 10000
+caption always "%{=r dg}%H[%n]: %c %{-}%`%-w%{=b bw}%n %t%{-}%+w"
