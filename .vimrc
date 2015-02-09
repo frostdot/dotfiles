@@ -9,18 +9,5 @@ set smartindent
 set number
 set background=dark
 set nocompatible
-filetype plugin indent off
-if has('vim_starting')
-	set runtimepath+=~/.vim/bundle/neobundle.vim
-endif
-call neobundle#begin(expand('~/.vim/bundle'))
-NeoBundleFetch 'Shougo/neobundle.vim'
-NeoBundle 'tpope/vim-endwise'
-NeoBundle 'AndrewRadev/switch.vim'
-NeoBundle 'tpope/vim-rails'
-NeoBundle 'tomtom/tcomment_vim'
-call neobundle#end()
-NeoBundleCheck
-filetype plugin indent on
 syntax on
 
