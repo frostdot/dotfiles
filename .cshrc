@@ -4,15 +4,12 @@ set	ignoreeof
 set	history=100000
 set	savehist=(15000 merge)
 set	color
-#alias	more less
 alias	mroe more
 alias	ls ls --color
 alias	ll ls -lA
-alias	vi vim
 alias	df df -h
-alias	du du -h --max-depth=1
-alias	tail tail -n 40
-#alias	more lv
+alias	tail tail -n 80
+setenv	SYSTEMD_PAGER 'lv -c'
 setenv	PATH ${PATH}:$HOME/bin
 setenv	LC_TIME	C
 
