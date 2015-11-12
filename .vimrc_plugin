@@ -19,6 +19,7 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'AndrewRadev/switch.vim'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'mrk21/yaml-vim'
 call neobundle#end()
 NeoBundleCheck
 filetype plugin indent on
