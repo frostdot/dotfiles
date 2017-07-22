@@ -9,7 +9,6 @@ alias	ls ls --color
 alias	ll ls -lA
 alias	df df -h
 alias	tail tail -n 80
-setenv	SYSTEMD_PAGER 'lv -c'
 setenv	PATH ${PATH}:$HOME/bin
 setenv	LC_TIME	C
 
